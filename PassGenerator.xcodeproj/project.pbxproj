@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2789378B1E770CC30042131B /* PassGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789378A1E770CC30042131B /* PassGenerator.swift */; };
 		2789E4C71E737E27002BC264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789E4C61E737E27002BC264 /* AppDelegate.swift */; };
 		2789E4C91E737E27002BC264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789E4C81E737E27002BC264 /* ViewController.swift */; };
 		2789E4CC1E737E27002BC264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2789E4CA1E737E27002BC264 /* Main.storyboard */; };
 		2789E4CE1E737E27002BC264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2789E4CD1E737E27002BC264 /* Assets.xcassets */; };
 		2789E4D11E737E27002BC264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2789E4CF1E737E27002BC264 /* LaunchScreen.storyboard */; };
+		2789E4DB1E74365F002BC264 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789E4DA1E74365F002BC264 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2789378A1E770CC30042131B /* PassGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassGenerator.swift; sourceTree = "<group>"; };
 		2789E4C31E737E27002BC264 /* PassGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2789E4C61E737E27002BC264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2789E4C81E737E27002BC264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		2789E4CD1E737E27002BC264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2789E4D01E737E27002BC264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2789E4D21E737E27002BC264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2789E4DA1E74365F002BC264 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				2789E4C61E737E27002BC264 /* AppDelegate.swift */,
 				2789E4C81E737E27002BC264 /* ViewController.swift */,
+				2789E4DA1E74365F002BC264 /* Model.swift */,
+				2789378A1E770CC30042131B /* PassGenerator.swift */,
 				2789E4CA1E737E27002BC264 /* Main.storyboard */,
 				2789E4CD1E737E27002BC264 /* Assets.xcassets */,
 				2789E4CF1E737E27002BC264 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			files = (
 				2789E4C91E737E27002BC264 /* ViewController.swift in Sources */,
 				2789E4C71E737E27002BC264 /* AppDelegate.swift in Sources */,
+				2789E4DB1E74365F002BC264 /* Model.swift in Sources */,
+				2789378B1E770CC30042131B /* PassGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				2789E4D71E737E27002BC264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
